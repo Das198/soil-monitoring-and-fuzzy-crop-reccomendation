@@ -1,0 +1,5 @@
+pyModbusTCP
+openpyxl
+numpy
+scikit-fuzzy
+pymodbus

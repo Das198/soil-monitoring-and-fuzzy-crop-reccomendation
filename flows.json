@@ -1,0 +1,18 @@
+[
+    {
+        "id": "54e346f74dd8a426",
+        "type": "tcp out",
+        "z": "f8e335f3996eb26a",
+        "g": "582de575d3b4b8cc",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "5021",
+        "beserver": "client",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 650,
+        "y": 80,
+        "wires": []
+    }
+]

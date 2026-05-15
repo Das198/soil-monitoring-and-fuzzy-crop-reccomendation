@@ -4,7 +4,6 @@ import logging
 import json
 from datetime import datetime
 from flask import Flask, render_template, jsonify
-from flask_basicauth import BasicAuth
 
 # Tambahkan root project ke sys.path agar import src.* bisa jalan
 _ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -25,15 +24,7 @@ DB_CONFIG = {
 # Setup Flask
 app = Flask(__name__)
 
-# ============================================================
-# KONFIGURASI KEAMANAN (BASIC AUTH)
-# ============================================================
-# Mengamankan halaman agar bot/crawler tidak bisa masuk sembarangan
-app.config['BASIC_AUTH_USERNAME'] = 'admin'
-app.config['BASIC_AUTH_PASSWORD'] = 'RahasiaTanah123!'
-app.config['BASIC_AUTH_FORCE'] = True  # Paksa login untuk semua route
-
-basic_auth = BasicAuth(app)
+# Akses publik tanpa login — aman karena hanya read-only
 
 # ============================================================
 # INISIALISASI DATABASE

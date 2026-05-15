@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Monitoring Tanah - Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-title">
+                <h1>Smart Soil Dashboard</h1>
+                <p>Monitoring & Rekomendasi Tanaman Real-time</p>
+            </div>
+            <div class="status-indicator">
+                <span class="dot blinking" id="conn-dot"></span>
+                <span id="conn-status">Menghubungkan...</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- SENSOR CARDS -->
+            <section class="sensor-grid" id="sensor-container">
+                <div class="card glass">
+                    <h3>Kelembapan</h3>
+                    <div class="value" id="val-kelembapan">--</div>
+                    <div class="unit">%</div>
+                </div>
+                <div class="card glass">
+                    <h3>Suhu</h3>
+                    <div class="value" id="val-suhu">--</div>
+                    <div class="unit">°C</div>
+                </div>
+                <div class="card glass">
+                    <h3>pH Tanah</h3>
+                    <div class="value" id="val-ph">--</div>
+                    <div class="unit">pH</div>
+                </div>
+                <div class="card glass">
+                    <h3>Nitrogen</h3>
+                    <div class="value" id="val-nitrogen">--</div>
+                    <div class="unit">mg/kg</div>
+                </div>
+                <div class="card glass">
+                    <h3>Fosfor</h3>
+                    <div class="value" id="val-fosfor">--</div>
+                    <div class="unit">mg/kg</div>
+                </div>
+                <div class="card glass">
+                    <h3>Kalium</h3>
+                    <div class="value" id="val-kalium">--</div>
+                    <div class="unit">mg/kg</div>
+                </div>
+                <div class="card glass">
+                    <h3>Salinitas</h3>
+                    <div class="value" id="val-salinitas">--</div>
+                    <div class="unit">dS/m</div>
+                </div>
+            </section>
+
+            <!-- REKOMENDASI TANAMAN -->
+            <section class="recommendation-section glass">
+                <div class="section-header">
+                    <h2>Rekomendasi Tanaman Terbaik</h2>
+                    <p class="subtitle">Berdasarkan evaluasi kesesuaian lahan (Fuzzy Logic)</p>
+                </div>
+                
+                <div class="crop-list" id="crop-container">
+                    <!-- Data tanaman akan di-render via JavaScript -->
+                    <div class="loading-text">Memuat rekomendasi...</div>
+                </div>
+
+                <!-- Tombol Expand -->
+                <div class="expand-btn-wrapper">
+                    <button id="toggle-expand-btn" class="expand-btn">
+                        Lihat Selengkapnya <span class="toggle-arrow">▼</span>
+                    </button>
+                </div>
+
+                <!-- Container tanaman ke-4 dan seterusnya (tersembunyi) -->
+                <div class="expanded-crop-list" id="expanded-container"></div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Terakhir diperbarui: <span id="last-update">--:--:--</span></p>
+        </footer>
+    </div>
+
+    <!-- Template HTML untuk detail tanaman (digunakan di JS) -->
+    <template id="crop-card-template">
+        <div class="crop-card">
+            <div class="crop-header">
+                <div class="crop-title">
+                    <h3 class="crop-name">Nama Tanaman</h3>
+                    <span class="crop-badge">Sangat Cocok</span>
+                </div>
+                <div class="crop-score">
+                    <div class="progress-ring">
+                        <svg viewBox="0 0 36 36">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle-fill" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        </svg>
+                        <div class="percentage-text">0%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="crop-details">
+                <h4>Analisis Parameter</h4>
+                <div class="param-grid">
+                    <!-- Parameters will be injected here -->
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

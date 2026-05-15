@@ -1,0 +1,454 @@
+:root {
+    --bg-color: #0b1120;
+    --card-bg: rgba(30, 41, 59, 0.6);
+    --card-border: rgba(255, 255, 255, 0.05);
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    
+    /* Kalem/Dark accents */
+    --accent-green: #10b981;
+    --accent-green-dark: #047857;
+    --accent-blue: #3b82f6;
+    --accent-blue-dark: #1d4ed8;
+    
+    /* Status colors */
+    --status-ok: #10b981;
+    --status-low: #eab308;
+    --status-high: #ef4444;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+    min-height: 100vh;
+    background-image: 
+        radial-gradient(circle at 15% 50%, rgba(16, 185, 129, 0.05), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(59, 130, 246, 0.05), transparent 25%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, var(--text-main), var(--accent-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-title p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    background: var(--card-bg);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--card-border);
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--status-ok);
+}
+
+.dot.blinking {
+    animation: blink 1.5s infinite ease-in-out;
+}
+
+.dot.offline {
+    background-color: var(--status-high);
+}
+
+@keyframes blink {
+    0% { opacity: 0.4; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+    50% { opacity: 1; box-shadow: 0 0 8px 2px rgba(16, 185, 129, 0.4); }
+    100% { opacity: 0.4; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* GLASSMORPHISM UTILS */
+.glass {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* SENSOR GRID */
+.sensor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-blue), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card h3 {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.card .value {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-main);
+    line-height: 1.2;
+}
+
+.card .unit {
+    font-size: 0.8rem;
+    color: var(--accent-green);
+    font-weight: 600;
+}
+
+/* RECOMMENDATION SECTION */
+.recommendation-section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.crop-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.loading-text {
+    text-align: center;
+    grid-column: 1 / -1;
+    color: var(--text-muted);
+    padding: 2rem;
+}
+
+.crop-card {
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+.crop-card:hover {
+    background: rgba(30, 41, 59, 0.8);
+}
+
+.crop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed var(--card-border);
+}
+
+.crop-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+}
+
+.crop-badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    background-color: rgba(16, 185, 129, 0.1);
+    color: var(--accent-green);
+    font-weight: 600;
+}
+
+.crop-badge.warning {
+    background-color: rgba(234, 179, 8, 0.1);
+    color: var(--status-low);
+}
+.crop-badge.danger {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: var(--status-high);
+}
+
+/* CIRCULAR PROGRESS */
+.progress-ring {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.progress-ring svg {
+    width: 100%;
+    height: 100%;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.1);
+    stroke-width: 3.8;
+}
+
+.circle-fill {
+    fill: none;
+    stroke: var(--accent-blue);
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    transition: stroke-dasharray 1s ease-out;
+}
+
+.percentage-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+/* PARAMETER DETAILS */
+.crop-details h4 {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.param-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+}
+
+.param-item {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+}
+
+.param-item .p-name {
+    color: var(--text-muted);
+    margin-bottom: 0.2rem;
+    text-transform: capitalize;
+}
+
+.param-item .p-val {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.param-item .p-status {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.status-ok { color: var(--status-ok); }
+.status-low { color: var(--status-low); }
+.status-high { color: var(--status-high); }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--card-border);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .sensor-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .param-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==========================================
+   SISTEM MEDALI TOP 3
+   ========================================== */
+
+/* Label medali di atas kartu */
+.medal-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    opacity: 0.85;
+}
+
+/* Nomor urut untuk tanaman di luar Top 3 */
+.rank-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.06em;
+    margin-bottom: 0.4rem;
+}
+
+/* EMAS */
+.medal-gold {
+    border: 1px solid rgba(212, 175, 55, 0.45) !important;
+    background: linear-gradient(145deg, rgba(212, 175, 55, 0.08), rgba(15, 23, 42, 0.6)) !important;
+    box-shadow: 0 0 18px rgba(212, 175, 55, 0.15), inset 0 0 30px rgba(212, 175, 55, 0.04);
+}
+
+.medal-gold .medal-label { color: #d4af37; }
+.medal-gold .crop-name { color: #f0d060; }
+
+/* PERAK */
+.medal-silver {
+    border: 1px solid rgba(180, 190, 200, 0.4) !important;
+    background: linear-gradient(145deg, rgba(180, 190, 200, 0.07), rgba(15, 23, 42, 0.6)) !important;
+    box-shadow: 0 0 14px rgba(180, 190, 200, 0.1), inset 0 0 30px rgba(180, 190, 200, 0.03);
+}
+
+.medal-silver .medal-label { color: #b4bec8; }
+.medal-silver .crop-name { color: #d0dae4; }
+
+/* PERUNGGU */
+.medal-bronze {
+    border: 1px solid rgba(176, 120, 70, 0.4) !important;
+    background: linear-gradient(145deg, rgba(176, 120, 70, 0.08), rgba(15, 23, 42, 0.6)) !important;
+    box-shadow: 0 0 14px rgba(176, 120, 70, 0.12), inset 0 0 30px rgba(176, 120, 70, 0.04);
+}
+
+.medal-bronze .medal-label { color: #b07846; }
+.medal-bronze .crop-name { color: #d0986a; }
+
+/* ==========================================
+   TOMBOL EXPAND & CONTAINER EXPANDED
+   ========================================== */
+
+.expand-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.expand-btn {
+    background: transparent;
+    border: 1px solid var(--card-border);
+    color: var(--text-muted);
+    padding: 0.6rem 1.8rem;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.expand-btn:hover {
+    border-color: rgba(59, 130, 246, 0.4);
+    color: var(--accent-blue);
+    background: rgba(59, 130, 246, 0.06);
+}
+
+.toggle-arrow {
+    font-size: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+/* Container untuk daftar tanaman yang di-expand */
+.expanded-crop-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.4s ease, margin-top 0.4s ease;
+    opacity: 0;
+}
+
+.expanded-crop-list.expanded {
+    max-height: 9999px; /* cukup besar untuk menampung semua */
+    opacity: 1;
+}

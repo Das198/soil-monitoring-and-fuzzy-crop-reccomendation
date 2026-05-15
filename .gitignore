@@ -1,0 +1,36 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# === Virtual Environment ===
+.venv/
+venv/
+env/
+
+# === Logs ===
+logs/
+*.log
+
+# === Database ===
+tanah_db.sql
+
+# === Node.js (Node-RED) ===
+node_modules/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Dokumen PDF (file besar, tidak perlu di GitHub) ===
+*.pdf
+
+# === File sementara / debug ===
+scratch/

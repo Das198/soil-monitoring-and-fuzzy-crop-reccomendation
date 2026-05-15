@@ -1,0 +1,2788 @@
+[
+  {
+    "id": "11085f20bdad7e65",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "ee40c49b8d6d34d5",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "name": "Database MySQL",
+    "style": {
+      "stroke": "#001f60",
+      "fill": "#ffffff",
+      "label": true,
+      "color": "#000000"
+    },
+    "nodes": [
+      "78089506359fe607",
+      "139ad7f60d4f81f8",
+      "5825de11bd54c9bb"
+    ],
+    "x": 2448,
+    "y": 33,
+    "w": 684,
+    "h": 374
+  },
+  {
+    "id": "b3b0437a550b6d7e",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "name": "",
+    "style": {
+      "stroke": "#3f5787",
+      "fill": "#ffffbf",
+      "label": true,
+      "color": "#000000"
+    },
+    "nodes": [
+      "ce242b22b666f37d",
+      "8b3c7ad92f1a9293",
+      "ecc2df265ebc6425",
+      "647b29e393f29eae",
+      "f6359da806e01927"
+    ],
+    "x": 908,
+    "y": 33,
+    "w": 1284,
+    "h": 1894
+  },
+  {
+    "id": "69b22b69a1e93a4c",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "style": {
+      "stroke": "#999999",
+      "stroke-opacity": "1",
+      "fill": "none",
+      "fill-opacity": "1",
+      "label": true,
+      "label-position": "nw",
+      "color": "#a4a4a4"
+    },
+    "nodes": [
+      "7646cbd0435db071",
+      "4e866ed2e7e5baca",
+      "98b91cfccfca7c70",
+      "c4ec90f2d027706d"
+    ],
+    "x": 8,
+    "y": 13,
+    "w": 778,
+    "h": 254
+  },
+  {
+    "id": "78089506359fe607",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "ee40c49b8d6d34d5",
+    "name": "Slave 1",
+    "style": {
+      "stroke": "#000000",
+      "label": true,
+      "fill": "#ffffff",
+      "color": "#000000"
+    },
+    "nodes": [
+      "a2c081b1b81e7f92",
+      "39880dfe386d58b1",
+      "07323820c541af03"
+    ],
+    "x": 2474,
+    "y": 59,
+    "w": 632,
+    "h": 82
+  },
+  {
+    "id": "139ad7f60d4f81f8",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "ee40c49b8d6d34d5",
+    "name": "Slave 2",
+    "style": {
+      "stroke": "#000000",
+      "label": true,
+      "color": "#000000",
+      "fill": "#ffffff"
+    },
+    "nodes": [
+      "a958606504874033",
+      "a1572e686b56b795",
+      "9324464cdc9dfd45"
+    ],
+    "x": 2474,
+    "y": 179,
+    "w": 632,
+    "h": 82
+  },
+  {
+    "id": "ce242b22b666f37d",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "b3b0437a550b6d7e",
+    "name": "SLAVE 1",
+    "style": {
+      "stroke": "#ff0000",
+      "fill": "#ffffff",
+      "label": true,
+      "color": "#000000"
+    },
+    "nodes": [
+      "2cbb60bc2726c32a",
+      "1bed901fb4462865",
+      "9ce7b8abd4f17139",
+      "243488c73283c4d2",
+      "e157ef409d90bd53",
+      "d402279ead095f85",
+      "0b0710dc98283e23",
+      "352d4186435110b5",
+      "21bbd0af137bccb6",
+      "31a35b21de999205",
+      "c1a433ffd57a94f0",
+      "af7eab6e5452a285",
+      "38350e90fb50393e",
+      "08308a9eab1abc4c",
+      "2684c7f28b905fdf",
+      "b369070f42a7e855",
+      "fe9f015d5eebc4e5",
+      "c9fbdcc2813b251e",
+      "5dc84ffa14d58256",
+      "89dc43db9bdf0e98",
+      "96941cbffb193240",
+      "241e7e1e4ab76734"
+    ],
+    "x": 1494,
+    "y": 59,
+    "w": 672,
+    "h": 602
+  },
+  {
+    "id": "647b29e393f29eae",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "b3b0437a550b6d7e",
+    "name": "SLAVE 2",
+    "style": {
+      "stroke": "#ffC000",
+      "fill": "#ffffff",
+      "label": true,
+      "color": "#000000"
+    },
+    "nodes": [
+      "e39abcfb4c204285",
+      "6385c85c4e7739e7",
+      "d3c670fe854a563f",
+      "7eac71318b323c8f",
+      "cf31cab363098c40",
+      "d107f2cb8610520c",
+      "aba5c4d1b092089a",
+      "f2bff0a78389c609",
+      "24af8dd109e47e67",
+      "55b21539db805060",
+      "7e6d8de188f7c44a",
+      "6383c1c9d218cfe7",
+      "6254f242fa60855a",
+      "e65f9717871aa774",
+      "f4023589d9abf493",
+      "44ab622b30ea15e9",
+      "d14dff072019c6eb",
+      "3d5867ef65b05191",
+      "a6ae2320137b675d",
+      "8a1e03b11d69bd1f",
+      "d74f63a7df312927",
+      "8f3abd1186eb3016"
+    ],
+    "x": 1494,
+    "y": 679,
+    "w": 672,
+    "h": 602
+  },
+  {
+    "id": "5825de11bd54c9bb",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "ee40c49b8d6d34d5",
+    "name": "Slave 3",
+    "style": {
+      "stroke": "#000000",
+      "fill": "#ffffff",
+      "label": true,
+      "color": "#000000"
+    },
+    "nodes": [
+      "5917fd533d5ab578",
+      "ee55641c5f80cb5b",
+      "d76615c078914e3d"
+    ],
+    "x": 2474,
+    "y": 299,
+    "w": 632,
+    "h": 82
+  },
+  {
+    "id": "8b3c7ad92f1a9293",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "b3b0437a550b6d7e",
+    "name": "SLAVE 3",
+    "style": {
+      "stroke": "#ffff00",
+      "fill": "#ffffff",
+      "label": true,
+      "color": "#000000"
+    },
+    "nodes": [
+      "77aa4c9a4a287234",
+      "8b992c2a65916033",
+      "4122327bc0f276f2",
+      "3cf4f8ef9b44e699",
+      "e61310fa352cf0d0",
+      "7e4c827732b3f863",
+      "018c93cba6561905",
+      "e055a9de0f078429",
+      "7a2f1e2c38f2ae6f",
+      "afd6ed5288f3565f",
+      "8eb790a7872937f6",
+      "f50b0d9636137144",
+      "6ee9edb07fdff2fe",
+      "d767044530b0b92d",
+      "a194ebf765352a6f",
+      "ce51ab6677330261",
+      "e00dc8e827741577",
+      "558f2f865103e681",
+      "8c0327f961fa3a1e",
+      "ce8c9632804345fa",
+      "dd06e3c073ff1162",
+      "e5ae928b23086e21"
+    ],
+    "x": 1494,
+    "y": 1299,
+    "w": 672,
+    "h": 602
+  },
+  {
+    "id": "ecc2df265ebc6425",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "b3b0437a550b6d7e",
+    "name": "TCP Server",
+    "style": {
+      "stroke": "#000000",
+      "fill": "#ffffff",
+      "label": true,
+      "color": "#000000"
+    },
+    "nodes": [
+      "5e51653c36446d2b",
+      "ead7eefc72f76adf"
+    ],
+    "x": 934,
+    "y": 939,
+    "w": 372,
+    "h": 82
+  },
+  {
+    "id": "c4ec90f2d027706d",
+    "type": "group",
+    "z": "11085f20bdad7e65",
+    "g": "69b22b69a1e93a4c",
+    "style": {
+      "stroke": "#999999",
+      "stroke-opacity": "1",
+      "fill": "none",
+      "fill-opacity": "1",
+      "label": true,
+      "label-position": "nw",
+      "color": "#a4a4a4"
+    },
+    "nodes": [
+      "18ce71a0364bd42c",
+      "f5ab2ee58bc26469",
+      "8b47a4d00813eaac"
+    ],
+    "x": 34,
+    "y": 39,
+    "w": 292,
+    "h": 202
+  },
+  {
+    "id": "5e51653c36446d2b",
+    "type": "tcp in",
+    "z": "11085f20bdad7e65",
+    "g": "ecc2df265ebc6425",
+    "name": "TCP Server 5020",
+    "server": "server",
+    "host": "TCP Server",
+    "port": "5020",
+    "datamode": "stream",
+    "datatype": "utf8",
+    "newline": "",
+    "topic": "TCP Server 5020",
+    "trim": false,
+    "base64": false,
+    "tls": "",
+    "x": 1040,
+    "y": 980,
+    "wires": [
+      [
+        "ead7eefc72f76adf"
+      ]
+    ]
+  },
+  {
+    "id": "ead7eefc72f76adf",
+    "type": "json",
+    "z": "11085f20bdad7e65",
+    "g": "ecc2df265ebc6425",
+    "name": "",
+    "property": "payload",
+    "action": "",
+    "pretty": false,
+    "x": 1230,
+    "y": 980,
+    "wires": [
+      [
+        "e39abcfb4c204285",
+        "2d81ebc87833e4b8",
+        "2cbb60bc2726c32a",
+        "77aa4c9a4a287234"
+      ]
+    ]
+  },
+  {
+    "id": "e39abcfb4c204285",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "Slave 2",
+    "func": "if (msg.payload.slave_id === 2) {\n    return msg;\n}\nreturn null;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1580,
+    "y": 980,
+    "wires": [
+      [
+        "6385c85c4e7739e7",
+        "d3c670fe854a563f",
+        "7eac71318b323c8f",
+        "6254f242fa60855a",
+        "e65f9717871aa774",
+        "f4023589d9abf493",
+        "44ab622b30ea15e9",
+        "a1572e686b56b795"
+      ]
+    ]
+  },
+  {
+    "id": "2cbb60bc2726c32a",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "Slave 1",
+    "func": "if (msg.payload.slave_id === 1) {\n    return msg;\n}\nreturn null;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1580,
+    "y": 360,
+    "wires": [
+      [
+        "1bed901fb4462865",
+        "9ce7b8abd4f17139",
+        "243488c73283c4d2",
+        "e157ef409d90bd53",
+        "d402279ead095f85",
+        "0b0710dc98283e23",
+        "352d4186435110b5",
+        "39880dfe386d58b1"
+      ]
+    ]
+  },
+  {
+    "id": "77aa4c9a4a287234",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "Slave 3",
+    "func": "if (msg.payload.slave_id === 3) {\n    return msg;\n}\nreturn null;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1580,
+    "y": 1600,
+    "wires": [
+      [
+        "8b992c2a65916033",
+        "4122327bc0f276f2",
+        "3cf4f8ef9b44e699",
+        "e61310fa352cf0d0",
+        "7e4c827732b3f863",
+        "018c93cba6561905",
+        "e055a9de0f078429",
+        "5917fd533d5ab578"
+      ]
+    ]
+  },
+  {
+    "id": "1bed901fb4462865",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "kelembapan",
+    "func": "var value = msg.payload.data.kelembapan_tanah;\nvar msg = { payload: value };\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1830,
+    "y": 120,
+    "wires": [
+      [
+        "21bbd0af137bccb6",
+        "b369070f42a7e855"
+      ]
+    ]
+  },
+  {
+    "id": "9ce7b8abd4f17139",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "suhu",
+    "func": "msg.payload = msg.payload.data.suhu;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 200,
+    "wires": [
+      [
+        "31a35b21de999205",
+        "fe9f015d5eebc4e5"
+      ]
+    ]
+  },
+  {
+    "id": "243488c73283c4d2",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "ph",
+    "func": "msg.payload = msg.payload.data.ph_tanah;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 280,
+    "wires": [
+      [
+        "c1a433ffd57a94f0",
+        "241e7e1e4ab76734"
+      ]
+    ]
+  },
+  {
+    "id": "e157ef409d90bd53",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "nitrogen",
+    "func": "msg.payload = msg.payload.data.nitrogen;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1820,
+    "y": 360,
+    "wires": [
+      [
+        "af7eab6e5452a285",
+        "c9fbdcc2813b251e"
+      ]
+    ]
+  },
+  {
+    "id": "d402279ead095f85",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "fosfor",
+    "func": "msg.payload = msg.payload.data.fosfor;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 440,
+    "wires": [
+      [
+        "38350e90fb50393e",
+        "5dc84ffa14d58256"
+      ]
+    ]
+  },
+  {
+    "id": "0b0710dc98283e23",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "kalium",
+    "func": "msg.payload = msg.payload.data.kalium;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 520,
+    "wires": [
+      [
+        "08308a9eab1abc4c",
+        "89dc43db9bdf0e98"
+      ]
+    ]
+  },
+  {
+    "id": "352d4186435110b5",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "salinity",
+    "func": "msg.payload = msg.payload.data.salinity;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 600,
+    "wires": [
+      [
+        "2684c7f28b905fdf",
+        "96941cbffb193240"
+      ]
+    ]
+  },
+  {
+    "id": "21bbd0af137bccb6",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "group": "59881499f31621c2",
+    "order": 1,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Kelembapan",
+    "label": "persen",
+    "format": "{{value}}",
+    "min": 0,
+    "max": "100",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "0",
+    "seg2": "100",
+    "diff": false,
+    "className": "",
+    "x": 2010,
+    "y": 140,
+    "wires": []
+  },
+  {
+    "id": "31a35b21de999205",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "group": "59881499f31621c2",
+    "order": 2,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Suhu",
+    "label": "'C",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "50",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 220,
+    "wires": []
+  },
+  {
+    "id": "c1a433ffd57a94f0",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "group": "59881499f31621c2",
+    "order": 3,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "pH",
+    "label": "units",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "100",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "af7eab6e5452a285",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "group": "59881499f31621c2",
+    "order": 4,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Nitrogen",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 380,
+    "wires": []
+  },
+  {
+    "id": "38350e90fb50393e",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "group": "59881499f31621c2",
+    "order": 5,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Pospor",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 460,
+    "wires": []
+  },
+  {
+    "id": "08308a9eab1abc4c",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "group": "59881499f31621c2",
+    "order": 6,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Kalium",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "2684c7f28b905fdf",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "group": "59881499f31621c2",
+    "order": 7,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Salinity",
+    "label": "units",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "250",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 620,
+    "wires": []
+  },
+  {
+    "id": "6385c85c4e7739e7",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "kelembapan",
+    "func": "msg.payload = msg.payload.data.kelembapan_tanah;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1830,
+    "y": 740,
+    "wires": [
+      [
+        "cf31cab363098c40",
+        "24af8dd109e47e67"
+      ]
+    ]
+  },
+  {
+    "id": "d3c670fe854a563f",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "suhu",
+    "func": "msg.payload = msg.payload.data.suhu;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 820,
+    "wires": [
+      [
+        "d107f2cb8610520c",
+        "55b21539db805060"
+      ]
+    ]
+  },
+  {
+    "id": "7eac71318b323c8f",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "ph",
+    "func": "msg.payload = msg.payload.data.ph_tanah;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 900,
+    "wires": [
+      [
+        "aba5c4d1b092089a",
+        "7e6d8de188f7c44a"
+      ]
+    ]
+  },
+  {
+    "id": "cf31cab363098c40",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "group": "678af00f9f705c2d",
+    "order": 1,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Kelembapan",
+    "label": "persen",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "100",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2010,
+    "y": 760,
+    "wires": []
+  },
+  {
+    "id": "d107f2cb8610520c",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "group": "678af00f9f705c2d",
+    "order": 2,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Suhu",
+    "label": "'C",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "50",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "aba5c4d1b092089a",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "group": "678af00f9f705c2d",
+    "order": 3,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "pH",
+    "label": "units",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "14",
+    "colors": [
+      "#009dff",
+      "#00b500",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": true,
+    "className": "",
+    "x": 1990,
+    "y": 920,
+    "wires": []
+  },
+  {
+    "id": "f2bff0a78389c609",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "group": "678af00f9f705c2d",
+    "order": 7,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Salinity",
+    "label": "units",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "250",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 1240,
+    "wires": []
+  },
+  {
+    "id": "8b992c2a65916033",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "kelembapan",
+    "func": "msg.payload = msg.payload.data.kelembapan_tanah;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1830,
+    "y": 1360,
+    "wires": [
+      [
+        "7a2f1e2c38f2ae6f",
+        "ce51ab6677330261"
+      ]
+    ]
+  },
+  {
+    "id": "4122327bc0f276f2",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "suhu",
+    "func": "msg.payload = msg.payload.data.suhu;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1440,
+    "wires": [
+      [
+        "afd6ed5288f3565f",
+        "e00dc8e827741577"
+      ]
+    ]
+  },
+  {
+    "id": "3cf4f8ef9b44e699",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "ph",
+    "func": "msg.payload = msg.payload.data.ph_tanah;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1520,
+    "wires": [
+      [
+        "8eb790a7872937f6",
+        "558f2f865103e681"
+      ]
+    ]
+  },
+  {
+    "id": "e61310fa352cf0d0",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "nitrogen",
+    "func": "msg.payload = msg.payload.data.nitrogen;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1820,
+    "y": 1600,
+    "wires": [
+      [
+        "f50b0d9636137144",
+        "8c0327f961fa3a1e"
+      ]
+    ]
+  },
+  {
+    "id": "7e4c827732b3f863",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "fosfor",
+    "func": "msg.payload = msg.payload.data.fosfor;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1680,
+    "wires": [
+      [
+        "6ee9edb07fdff2fe",
+        "ce8c9632804345fa"
+      ]
+    ]
+  },
+  {
+    "id": "018c93cba6561905",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "kalium",
+    "func": "msg.payload = msg.payload.data.kalium;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1760,
+    "wires": [
+      [
+        "d767044530b0b92d",
+        "dd06e3c073ff1162"
+      ]
+    ]
+  },
+  {
+    "id": "e055a9de0f078429",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "salinity",
+    "func": "msg.payload = msg.payload.data.salinity;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1840,
+    "wires": [
+      [
+        "a194ebf765352a6f",
+        "e5ae928b23086e21"
+      ]
+    ]
+  },
+  {
+    "id": "7a2f1e2c38f2ae6f",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "group": "aa079b3c2162d745",
+    "order": 1,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Kelembapan",
+    "label": "persen",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "100",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2010,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "afd6ed5288f3565f",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "group": "aa079b3c2162d745",
+    "order": 2,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Suhu",
+    "label": "'C",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "50",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 1460,
+    "wires": []
+  },
+  {
+    "id": "8eb790a7872937f6",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "group": "aa079b3c2162d745",
+    "order": 3,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "pH",
+    "label": "units",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "100",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 1540,
+    "wires": []
+  },
+  {
+    "id": "f50b0d9636137144",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "group": "aa079b3c2162d745",
+    "order": 4,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Nitrogen",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 1620,
+    "wires": []
+  },
+  {
+    "id": "6ee9edb07fdff2fe",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "group": "aa079b3c2162d745",
+    "order": 5,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Pospor",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 1700,
+    "wires": []
+  },
+  {
+    "id": "d767044530b0b92d",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "group": "aa079b3c2162d745",
+    "order": 6,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Kalium",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 1780,
+    "wires": []
+  },
+  {
+    "id": "a194ebf765352a6f",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "group": "aa079b3c2162d745",
+    "order": 7,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Salinity",
+    "label": "units",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "250",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 1860,
+    "wires": []
+  },
+  {
+    "id": "a958606504874033",
+    "type": "mysql",
+    "z": "11085f20bdad7e65",
+    "g": "139ad7f60d4f81f8",
+    "mydb": "9e01eb60cace409c",
+    "name": "",
+    "x": 2790,
+    "y": 220,
+    "wires": [
+      [
+        "9324464cdc9dfd45"
+      ]
+    ]
+  },
+  {
+    "id": "b369070f42a7e855",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "kelembapan1",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a2c081b1b81e7f92",
+    "type": "mysql",
+    "z": "11085f20bdad7e65",
+    "g": "78089506359fe607",
+    "mydb": "9e01eb60cace409c",
+    "name": "",
+    "x": 2790,
+    "y": 100,
+    "wires": [
+      [
+        "07323820c541af03"
+      ]
+    ]
+  },
+  {
+    "id": "39880dfe386d58b1",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "78089506359fe607",
+    "name": "Slave_1",
+    "func": "var data = msg.payload.data;\nif (!data) return null;\n\nvar k = data.kelembapan_tanah || 0;\nvar s = data.suhu || 0;\nvar p = data.ph_tanah || 0;\nvar n = data.nitrogen || 0;\nvar f = data.fosfor || 0;\nvar ka = data.kalium || 0;\nvar sal = data.salinity || 0;\n\nmsg.topic = \"INSERT INTO slave_1(kelembapan, suhu, ph, nitrogen, fosfor, kalium, salinity) VALUES('\"+k+\"', '\"+s+\"', '\"+p+\"', '\"+n+\"', '\"+f+\"', '\"+ka+\"', '\"+sal+\"')\";\nmsg.payload = []; // Prevent binding collision\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2560,
+    "y": 100,
+    "wires": [
+      [
+        "a2c081b1b81e7f92"
+      ]
+    ]
+  },
+  {
+    "id": "07323820c541af03",
+    "type": "debug",
+    "z": "11085f20bdad7e65",
+    "g": "78089506359fe607",
+    "name": "debug 12",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3000,
+    "y": 100,
+    "wires": []
+  },
+  {
+    "id": "a1572e686b56b795",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "139ad7f60d4f81f8",
+    "name": "Slave_2",
+    "func": "var data = msg.payload.data;\nif (!data) return null;\n\nvar k = data.kelembapan_tanah || 0;\nvar s = data.suhu || 0;\nvar p = data.ph_tanah || 0;\nvar n = data.nitrogen || 0;\nvar f = data.fosfor || 0;\nvar ka = data.kalium || 0;\nvar sal = data.salinity || 0;\n\nmsg.topic = \"INSERT INTO slave_2(kelembapan, suhu, ph, nitrogen, fosfor, kalium, salinity) VALUES('\"+k+\"', '\"+s+\"', '\"+p+\"', '\"+n+\"', '\"+f+\"', '\"+ka+\"', '\"+sal+\"')\";\nmsg.payload = []; // Prevent binding collision\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2560,
+    "y": 220,
+    "wires": [
+      [
+        "a958606504874033"
+      ]
+    ]
+  },
+  {
+    "id": "fe9f015d5eebc4e5",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "suhu1",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 180,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9324464cdc9dfd45",
+    "type": "debug",
+    "z": "11085f20bdad7e65",
+    "g": "139ad7f60d4f81f8",
+    "name": "debug 13",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3000,
+    "y": 220,
+    "wires": []
+  },
+  {
+    "id": "241e7e1e4ab76734",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ph1",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2010,
+    "y": 260,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c9fbdcc2813b251e",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "nitrogen1",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2030,
+    "y": 340,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5dc84ffa14d58256",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "fosfor1",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 420,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "89dc43db9bdf0e98",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "kalium1",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 500,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "96941cbffb193240",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "ce242b22b666f37d",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "salinity1",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 580,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "24af8dd109e47e67",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "kelembapan2",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 720,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "55b21539db805060",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "suhu2",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 800,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7e6d8de188f7c44a",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ph2",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2010,
+    "y": 880,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ce51ab6677330261",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "kelembapan3",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 1340,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e00dc8e827741577",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "suhu3",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 1420,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "558f2f865103e681",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ph3",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2010,
+    "y": 1500,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8c0327f961fa3a1e",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "nitrogen3",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2030,
+    "y": 1580,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ce8c9632804345fa",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "fosfor3",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 1660,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "dd06e3c073ff1162",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "kalium3",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 1740,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e5ae928b23086e21",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "d": true,
+    "g": "8b3c7ad92f1a9293",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "salinity3",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 1820,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5917fd533d5ab578",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "5825de11bd54c9bb",
+    "name": "Slave_3",
+    "func": "var data = msg.payload.data;\nif (!data) return null;\n\nvar k = data.kelembapan_tanah || 0;\nvar s = data.suhu || 0;\nvar p = data.ph_tanah || 0;\nvar n = data.nitrogen || 0;\nvar f = data.fosfor || 0;\nvar ka = data.kalium || 0;\nvar sal = data.salinity || 0;\n\nmsg.topic = \"INSERT INTO slave_3(kelembapan, suhu, ph, nitrogen, fosfor, kalium, salinity) VALUES('\"+k+\"', '\"+s+\"', '\"+p+\"', '\"+n+\"', '\"+f+\"', '\"+ka+\"', '\"+sal+\"')\";\nmsg.payload = []; // Prevent binding collision\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2560,
+    "y": 340,
+    "wires": [
+      [
+        "ee55641c5f80cb5b"
+      ]
+    ]
+  },
+  {
+    "id": "ee55641c5f80cb5b",
+    "type": "mysql",
+    "z": "11085f20bdad7e65",
+    "g": "5825de11bd54c9bb",
+    "mydb": "9e01eb60cace409c",
+    "name": "",
+    "x": 2790,
+    "y": 340,
+    "wires": [
+      [
+        "d76615c078914e3d"
+      ]
+    ]
+  },
+  {
+    "id": "d76615c078914e3d",
+    "type": "debug",
+    "z": "11085f20bdad7e65",
+    "g": "5825de11bd54c9bb",
+    "name": "debug 1",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3000,
+    "y": 340,
+    "wires": []
+  },
+  {
+    "id": "6383c1c9d218cfe7",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "nitrogen2",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2030,
+    "y": 960,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6254f242fa60855a",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "nitrogen",
+    "func": "msg.payload = msg.payload.data.nitrogen;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1820,
+    "y": 980,
+    "wires": [
+      [
+        "6383c1c9d218cfe7",
+        "d14dff072019c6eb"
+      ]
+    ]
+  },
+  {
+    "id": "e65f9717871aa774",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "fosfor",
+    "func": "msg.payload = msg.payload.data.fosfor;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1060,
+    "wires": [
+      [
+        "3d5867ef65b05191",
+        "8a1e03b11d69bd1f"
+      ]
+    ]
+  },
+  {
+    "id": "f4023589d9abf493",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "kalium",
+    "func": "msg.payload = msg.payload.data.kalium;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1140,
+    "wires": [
+      [
+        "a6ae2320137b675d",
+        "d74f63a7df312927"
+      ]
+    ]
+  },
+  {
+    "id": "44ab622b30ea15e9",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "salinity",
+    "func": "msg.payload = msg.payload.data.salinity;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1810,
+    "y": 1220,
+    "wires": [
+      [
+        "f2bff0a78389c609",
+        "8f3abd1186eb3016"
+      ]
+    ]
+  },
+  {
+    "id": "d14dff072019c6eb",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "group": "678af00f9f705c2d",
+    "order": 4,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Nitrogen",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 1000,
+    "wires": []
+  },
+  {
+    "id": "3d5867ef65b05191",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "group": "678af00f9f705c2d",
+    "order": 5,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Pospor",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 2000,
+    "y": 1080,
+    "wires": []
+  },
+  {
+    "id": "a6ae2320137b675d",
+    "type": "ui_gauge",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "group": "678af00f9f705c2d",
+    "order": 6,
+    "width": 0,
+    "height": 0,
+    "gtype": "gage",
+    "title": "Kalium",
+    "label": "mg/Kg",
+    "format": "{{msg.payload}}",
+    "min": 0,
+    "max": "300",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1990,
+    "y": 1160,
+    "wires": []
+  },
+  {
+    "id": "8a1e03b11d69bd1f",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "fosfor2",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 1040,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d74f63a7df312927",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "kalium2",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 1120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8f3abd1186eb3016",
+    "type": "change",
+    "z": "11085f20bdad7e65",
+    "g": "647b29e393f29eae",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "salinity2",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 1200,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "18ce71a0364bd42c",
+    "type": "ui_button",
+    "z": "11085f20bdad7e65",
+    "g": "c4ec90f2d027706d",
+    "name": "START Monitoring",
+    "group": "monitoring_control_group",
+    "order": 1,
+    "width": "2",
+    "height": "1",
+    "passthru": false,
+    "label": "START",
+    "tooltip": "Mulai monitoring sensor data",
+    "color": "white",
+    "bgcolor": "#4CAF50",
+    "className": "",
+    "icon": "fa-play",
+    "payload": "start",
+    "payloadType": "str",
+    "topic": "monitoring-control",
+    "topicType": "str",
+    "x": 150,
+    "y": 140,
+    "wires": [
+      [
+        "7646cbd0435db071"
+      ]
+    ]
+  },
+  {
+    "id": "f5ab2ee58bc26469",
+    "type": "ui_button",
+    "z": "11085f20bdad7e65",
+    "g": "c4ec90f2d027706d",
+    "name": "STOP Monitoring",
+    "group": "monitoring_control_group",
+    "order": 2,
+    "width": "2",
+    "height": "1",
+    "passthru": false,
+    "label": "STOP",
+    "tooltip": "Hentikan monitoring sensor data",
+    "color": "white",
+    "bgcolor": "#f44336",
+    "className": "",
+    "icon": "fa-stop",
+    "payload": "stop",
+    "payloadType": "str",
+    "topic": "monitoring-control",
+    "topicType": "str",
+    "x": 150,
+    "y": 80,
+    "wires": [
+      [
+        "7646cbd0435db071"
+      ]
+    ]
+  },
+  {
+    "id": "8b47a4d00813eaac",
+    "type": "ui_button",
+    "z": "11085f20bdad7e65",
+    "g": "c4ec90f2d027706d",
+    "name": "Generate Recommendation",
+    "group": "monitoring_control_group",
+    "order": 3,
+    "width": "2",
+    "height": "1",
+    "passthru": false,
+    "label": "Generate",
+    "tooltip": "Generate rekomendasi tanaman berdasarkan rata-rata data slave aktif",
+    "color": "white",
+    "bgcolor": "#2196F3",
+    "className": "",
+    "icon": "fa-leaf",
+    "payload": "SELECT data_json, timestamp FROM rekomendasi ORDER BY timestamp DESC LIMIT 1;",
+    "payloadType": "str",
+    "topic": "recommendation",
+    "topicType": "str",
+    "x": 180,
+    "y": 200,
+    "wires": [
+      [
+        "rekom_mysql_vps_001"
+      ]
+    ]
+  },
+  {
+    "id": "7646cbd0435db071",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "69b22b69a1e93a4c",
+    "name": "Control Monitoring Flow",
+    "func": "// Output 1 -> monitoring_status_display (payload cantik untuk UI)\n// Output 2 -> 54e346f74dd8a426 TCP out (payload asli untuk main.py)\nvar rawCmd = String(msg.payload).trim().toUpperCase();\n\nif (rawCmd === 'START') {\n    node.log('Monitoring STARTED');\n    var displayMsg = { payload: 'âœ… Monitoring STARTED' };\n    var tcpMsg    = { payload: 'start' };\n    return [ displayMsg, tcpMsg ];\n} else if (rawCmd === 'STOP') {\n    node.log('Monitoring STOPPED');\n    var displayMsg = { payload: 'â›” Monitoring STOPPED' };\n    var tcpMsg    = { payload: 'stop' };\n    return [ displayMsg, tcpMsg ];\n}\n// Abaikan pesan lain\nreturn [ null, null ];",
+    "outputs": 2,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 410,
+    "y": 100,
+    "wires": [
+      [
+        "4e866ed2e7e5baca"
+      ],
+      [
+        "98b91cfccfca7c70"
+      ]
+    ]
+  },
+  {
+    "id": "4e866ed2e7e5baca",
+    "type": "ui_text",
+    "z": "11085f20bdad7e65",
+    "g": "69b22b69a1e93a4c",
+    "group": "monitoring_control_group",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "name": "Monitoring Status",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": "",
+    "color": "#000000",
+    "x": 670,
+    "y": 120,
+    "wires": []
+  },
+  {
+    "id": "f6359da806e01927",
+    "type": "ui_template",
+    "z": "11085f20bdad7e65",
+    "g": "b3b0437a550b6d7e",
+    "group": "ae4c554b5c7307b1",
+    "name": "Recommendation Display",
+    "order": 1,
+    "width": "12",
+    "height": "12",
+    "format": "<style>\n  .rekmd-wrap { padding: 12px; font-family: 'Segoe UI', sans-serif; }\n  .rekmd-title { font-size: 1.2em; font-weight: bold; margin-bottom: 14px; color: #90CAF9; border-bottom: 1px solid #37474F; padding-bottom: 8px; }\n  .rekmd-empty { color: #607D8B; font-style: italic; padding: 20px 0; text-align: center; }\n\n  /* Card tanaman */\n  .rekmd-item {\n    padding: 10px 14px 6px 14px;\n    margin-bottom: 10px;\n    border-radius: 8px;\n    background: #1E2730;\n    border-left: 4px solid transparent;\n    transition: all 0.2s;\n  }\n  .rekmd-item:hover { background: #263040; }\n\n  /* Row utama: rank + info + skor */\n  .rekmd-main-row {\n    display: flex;\n    align-items: center;\n    cursor: pointer;\n  }\n  .rekmd-rank { font-size: 0.9em; color: #78909C; margin-right: 10px; min-width: 24px; }\n  .rekmd-name { flex: 1; font-weight: 600; font-size: 1em; text-transform: capitalize; }\n  .rekmd-score { font-size: 1.1em; font-weight: bold; min-width: 52px; text-align: right; }\n  .rekmd-chevron { font-size: 0.75em; color: #546E7A; margin-left: 8px; transition: transform 0.2s; }\n  .rekmd-chevron.open { transform: rotate(180deg); }\n\n  /* Progress bar utama */\n  .rekmd-bar-wrap { margin-top: 4px; background: #263040; border-radius: 4px; height: 5px; width: 100%; }\n  .rekmd-bar { height: 5px; border-radius: 4px; transition: width 0.4s ease; }\n  .rekmd-status-lbl { font-size: 0.78em; color: #90A4AE; margin-top: 3px; }\n\n  /* Panel detail parameter */\n  .rekmd-detail {\n    margin-top: 8px;\n    padding: 8px 10px;\n    background: #161e28;\n    border-radius: 6px;\n    overflow: hidden;\n  }\n  .rekmd-detail-title {\n    font-size: 0.72em;\n    color: #546E7A;\n    text-transform: uppercase;\n    letter-spacing: 0.05em;\n    margin-bottom: 6px;\n  }\n  .param-row {\n    display: flex;\n    align-items: center;\n    margin-bottom: 5px;\n    font-size: 0.82em;\n  }\n  .param-label {\n    min-width: 72px;\n    color: #90A4AE;\n    font-weight: 600;\n  }\n  .param-bar-wrap {\n    flex: 1;\n    background: #263040;\n    border-radius: 3px;\n    height: 6px;\n    margin: 0 8px;\n    overflow: hidden;\n  }\n  .param-bar {\n    height: 6px;\n    border-radius: 3px;\n    transition: width 0.4s ease;\n  }\n  .param-pct {\n    min-width: 38px;\n    text-align: right;\n    font-weight: 600;\n  }\n  .param-status {\n    min-width: 80px;\n    text-align: right;\n    font-size: 0.78em;\n    color: #78909C;\n    margin-left: 6px;\n  }\n</style>\n\n<div class=\"rekmd-wrap\">\n  <div class=\"rekmd-title\">&#127807; Ranking Rekomendasi Tanaman</div>\n\n  <!-- Kondisi: Data tersedia -->\n  <div ng-if=\"msg.payload && msg.payload.length > 0\">\n    <div ng-repeat=\"tanaman in msg.payload track by $index\"\n         class=\"rekmd-item\"\n         ng-init=\"open = false\"\n         ng-style=\"{\n           'border-left-color': tanaman.skor >= 80 ? '#4CAF50' : (tanaman.skor >= 60 ? '#FFC107' : (tanaman.skor >= 40 ? '#FF9800' : '#F44336'))\n         }\">\n\n      <!-- Row utama (klik untuk expand) -->\n      <div class=\"rekmd-main-row\" ng-click=\"open = !open\">\n        <span class=\"rekmd-rank\">{{ $index + 1 }}.</span>\n\n        <div style=\"flex: 1;\">\n          <div class=\"rekmd-name\">{{ tanaman.nama }}</div>\n          <div class=\"rekmd-bar-wrap\">\n            <div class=\"rekmd-bar\"\n                 ng-style=\"{\n                   'width': tanaman.skor + '%',\n                   'background-color': tanaman.skor >= 80 ? '#4CAF50' : (tanaman.skor >= 60 ? '#FFC107' : (tanaman.skor >= 40 ? '#FF9800' : '#F44336'))\n                 }\">\n            </div>\n          </div>\n          <div class=\"rekmd-status-lbl\">{{ tanaman.status }}</div>\n        </div>\n\n        <span class=\"rekmd-score\"\n              ng-style=\"{\n                'color': tanaman.skor >= 80 ? '#4CAF50' : (tanaman.skor >= 60 ? '#FFC107' : (tanaman.skor >= 40 ? '#FF9800' : '#F44336'))\n              }\">\n          {{ tanaman.skor }}%\n        </span>\n\n        <span class=\"rekmd-chevron\" ng-class=\"{open: open}\">&#9660;</span>\n      </div>\n\n      <!-- Panel detail parameter (collapsible) -->\n      <div class=\"rekmd-detail\" ng-if=\"open && tanaman.details\">\n        <div class=\"rekmd-detail-title\">Kecocokan Parameter</div>\n\n        <!-- pH -->\n        <div class=\"param-row\" ng-if=\"tanaman.details.ph_tanah\">\n          <span class=\"param-label\">pH</span>\n          <div class=\"param-bar-wrap\">\n            <div class=\"param-bar\"\n                 ng-style=\"{\n                   'width': (tanaman.details.ph_tanah.percentage > 100 ? 100 : tanaman.details.ph_tanah.percentage) + '%',\n                   'background-color': tanaman.details.ph_tanah.percentage >= 100 ? '#4CAF50' : (tanaman.details.ph_tanah.percentage >= 70 ? '#FFC107' : '#F44336')\n                 }\">\n            </div>\n          </div>\n          <span class=\"param-pct\"\n                ng-style=\"{'color': tanaman.details.ph_tanah.percentage >= 100 ? '#4CAF50' : (tanaman.details.ph_tanah.percentage >= 70 ? '#FFC107' : '#F44336')}\">\n            {{ tanaman.details.ph_tanah.percentage > 100 ? 100 : tanaman.details.ph_tanah.percentage }}%\n          </span>\n          <span class=\"param-status\">{{ tanaman.details.ph_tanah.status === 'OK' ? 'Ideal' : tanaman.details.ph_tanah.status }}</span>\n        </div>\n\n        <!-- Suhu -->\n        <div class=\"param-row\" ng-if=\"tanaman.details.suhu\">\n          <span class=\"param-label\">Suhu</span>\n          <div class=\"param-bar-wrap\">\n            <div class=\"param-bar\"\n                 ng-style=\"{\n                   'width': (tanaman.details.suhu.percentage > 100 ? 100 : tanaman.details.suhu.percentage) + '%',\n                   'background-color': tanaman.details.suhu.percentage >= 100 ? '#4CAF50' : (tanaman.details.suhu.percentage >= 70 ? '#FFC107' : '#F44336')\n                 }\">\n            </div>\n          </div>\n          <span class=\"param-pct\"\n                ng-style=\"{'color': tanaman.details.suhu.percentage >= 100 ? '#4CAF50' : (tanaman.details.suhu.percentage >= 70 ? '#FFC107' : '#F44336')}\">\n            {{ tanaman.details.suhu.percentage > 100 ? 100 : tanaman.details.suhu.percentage }}%\n          </span>\n          <span class=\"param-status\">{{ tanaman.details.suhu.status === 'OK' ? 'Ideal' : tanaman.details.suhu.status }}</span>\n        </div>\n\n        <!-- Kelembapan -->\n        <div class=\"param-row\" ng-if=\"tanaman.details.kelembapan_tanah\">\n          <span class=\"param-label\">Kelembapan</span>\n          <div class=\"param-bar-wrap\">\n            <div class=\"param-bar\"\n                 ng-style=\"{\n                   'width': (tanaman.details.kelembapan_tanah.percentage > 100 ? 100 : tanaman.details.kelembapan_tanah.percentage) + '%',\n                   'background-color': tanaman.details.kelembapan_tanah.percentage >= 100 ? '#4CAF50' : (tanaman.details.kelembapan_tanah.percentage >= 70 ? '#FFC107' : '#F44336')\n                 }\">\n            </div>\n          </div>\n          <span class=\"param-pct\"\n                ng-style=\"{'color': tanaman.details.kelembapan_tanah.percentage >= 100 ? '#4CAF50' : (tanaman.details.kelembapan_tanah.percentage >= 70 ? '#FFC107' : '#F44336')}\">\n            {{ tanaman.details.kelembapan_tanah.percentage > 100 ? 100 : tanaman.details.kelembapan_tanah.percentage }}%\n          </span>\n          <span class=\"param-status\">{{ tanaman.details.kelembapan_tanah.status === 'OK' ? 'Ideal' : tanaman.details.kelembapan_tanah.status }}</span>\n        </div>\n\n        <!-- Nitrogen -->\n        <div class=\"param-row\" ng-if=\"tanaman.details.nitrogen\">\n          <span class=\"param-label\">Nitrogen (N)</span>\n          <div class=\"param-bar-wrap\">\n            <div class=\"param-bar\"\n                 ng-style=\"{\n                   'width': (tanaman.details.nitrogen.percentage > 100 ? 100 : tanaman.details.nitrogen.percentage) + '%',\n                   'background-color': tanaman.details.nitrogen.percentage >= 100 ? '#4CAF50' : (tanaman.details.nitrogen.percentage >= 70 ? '#FFC107' : '#F44336')\n                 }\">\n            </div>\n          </div>\n          <span class=\"param-pct\"\n                ng-style=\"{'color': tanaman.details.nitrogen.percentage >= 100 ? '#4CAF50' : (tanaman.details.nitrogen.percentage >= 70 ? '#FFC107' : '#F44336')}\">\n            {{ tanaman.details.nitrogen.percentage > 100 ? 100 : tanaman.details.nitrogen.percentage }}%\n          </span>\n          <span class=\"param-status\">{{ tanaman.details.nitrogen.status === 'OK' ? 'Ideal' : tanaman.details.nitrogen.status }}</span>\n        </div>\n\n        <!-- Fosfor -->\n        <div class=\"param-row\" ng-if=\"tanaman.details.fosfor\">\n          <span class=\"param-label\">Fosfor (P)</span>\n          <div class=\"param-bar-wrap\">\n            <div class=\"param-bar\"\n                 ng-style=\"{\n                   'width': (tanaman.details.fosfor.percentage > 100 ? 100 : tanaman.details.fosfor.percentage) + '%',\n                   'background-color': tanaman.details.fosfor.percentage >= 100 ? '#4CAF50' : (tanaman.details.fosfor.percentage >= 70 ? '#FFC107' : '#F44336')\n                 }\">\n            </div>\n          </div>\n          <span class=\"param-pct\"\n                ng-style=\"{'color': tanaman.details.fosfor.percentage >= 100 ? '#4CAF50' : (tanaman.details.fosfor.percentage >= 70 ? '#FFC107' : '#F44336')}\">\n            {{ tanaman.details.fosfor.percentage > 100 ? 100 : tanaman.details.fosfor.percentage }}%\n          </span>\n          <span class=\"param-status\">{{ tanaman.details.fosfor.status === 'OK' ? 'Ideal' : tanaman.details.fosfor.status }}</span>\n        </div>\n\n        <!-- Kalium -->\n        <div class=\"param-row\" ng-if=\"tanaman.details.kalium\">\n          <span class=\"param-label\">Kalium (K)</span>\n          <div class=\"param-bar-wrap\">\n            <div class=\"param-bar\"\n                 ng-style=\"{\n                   'width': (tanaman.details.kalium.percentage > 100 ? 100 : tanaman.details.kalium.percentage) + '%',\n                   'background-color': tanaman.details.kalium.percentage >= 100 ? '#4CAF50' : (tanaman.details.kalium.percentage >= 70 ? '#FFC107' : '#F44336')\n                 }\">\n            </div>\n          </div>\n          <span class=\"param-pct\"\n                ng-style=\"{'color': tanaman.details.kalium.percentage >= 100 ? '#4CAF50' : (tanaman.details.kalium.percentage >= 70 ? '#FFC107' : '#F44336')}\">\n            {{ tanaman.details.kalium.percentage > 100 ? 100 : tanaman.details.kalium.percentage }}%\n          </span>\n          <span class=\"param-status\">{{ tanaman.details.kalium.status === 'OK' ? 'Ideal' : tanaman.details.kalium.status }}</span>\n        </div>\n\n        <!-- Salinitas -->\n        <div class=\"param-row\" ng-if=\"tanaman.details.salinity\">\n          <span class=\"param-label\">Salinitas</span>\n          <div class=\"param-bar-wrap\">\n            <div class=\"param-bar\"\n                 ng-style=\"{\n                   'width': (tanaman.details.salinity.percentage > 100 ? 100 : tanaman.details.salinity.percentage) + '%',\n                   'background-color': tanaman.details.salinity.percentage >= 100 ? '#4CAF50' : (tanaman.details.salinity.percentage >= 70 ? '#FFC107' : '#F44336')\n                 }\">\n            </div>\n          </div>\n          <span class=\"param-pct\"\n                ng-style=\"{'color': tanaman.details.salinity.percentage >= 100 ? '#4CAF50' : (tanaman.details.salinity.percentage >= 70 ? '#FFC107' : '#F44336')}\">\n            {{ tanaman.details.salinity.percentage > 100 ? 100 : tanaman.details.salinity.percentage }}%\n          </span>\n          <span class=\"param-status\">{{ tanaman.details.salinity.status === 'OK' ? 'Ideal' : tanaman.details.salinity.status }}</span>\n        </div>\n\n      </div>\n    </div>\n  </div>\n\n  <!-- Kondisi: Belum ada data -->\n  <div ng-if=\"!msg.payload || msg.payload.length === 0\" class=\"rekmd-empty\">\n    <div style=\"font-size: 2em; margin-bottom: 8px;\">&#127985;</div>\n    Belum ada rekomendasi.<br>Pilih slave aktif dan tekan tombol <strong>Generate</strong>.\n  </div>\n</div>\n",
+    "storeOutMessages": true,
+    "fwdInMessages": true,
+    "resendOnRefresh": false,
+    "templateScope": "local",
+    "className": "",
+    "x": 1230,
+    "y": 1240,
+    "wires": [
+      []
+    ],
+    "template": "\n<style>\n.rekom-container { padding: 4px; }\n.rekom-title { font-size: 13px; font-weight: bold; color: #555; margin-bottom: 8px; }\n.rekom-timestamp { font-size: 11px; color: #999; margin-bottom: 10px; }\n.crop-card {\n    background: #f9f9f9;\n    border-left: 4px solid #ccc;\n    border-radius: 4px;\n    padding: 8px 10px;\n    margin-bottom: 6px;\n}\n.crop-card.sangat-cocok  { border-color: #4caf50; background: #f1f8f2; }\n.crop-card.cocok         { border-color: #8bc34a; background: #f5f9f0; }\n.crop-card.kurang-cocok  { border-color: #ff9800; background: #fff8f0; }\n.crop-card.tidak-cocok   { border-color: #f44336; background: #fff3f2; }\n.crop-header { display: flex; justify-content: space-between; align-items: center; }\n.crop-rank   { font-size: 11px; color: #999; margin-right: 6px; }\n.crop-name   { font-weight: bold; font-size: 13px; flex: 1; }\n.crop-score  { font-size: 13px; font-weight: bold; }\n.crop-status { font-size: 10px; padding: 2px 6px; border-radius: 10px; color: white; }\n.status-sangat-cocok  { background: #4caf50; }\n.status-cocok         { background: #8bc34a; }\n.status-kurang-cocok  { background: #ff9800; }\n.status-tidak-cocok   { background: #f44336; }\n.crop-params { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }\n.param-chip {\n    font-size: 10px;\n    padding: 2px 6px;\n    border-radius: 10px;\n    background: #e0e0e0;\n    color: #333;\n}\n.param-chip.good  { background: #c8e6c9; color: #2e7d32; }\n.param-chip.ok    { background: #fff9c4; color: #6d5100; }\n.param-chip.bad   { background: #ffccbc; color: #bf360c; }\n</style>\n\n<div ng-if=\"msg\" class=\"rekom-container\">\n  <div class=\"rekom-title\">Rekomendasi Tanaman ({{ msg.payload.tanaman.length || 0 }} tanaman dievaluasi)</div>\n  <div class=\"rekom-timestamp\" ng-if=\"msg.payload.timestamp\">\n    Update: {{ msg.payload.timestamp | date:'dd/MM HH:mm' }}\n  </div>\n\n  <div ng-if=\"!msg.payload.tanaman || msg.payload.tanaman.length === 0\"\n       style=\"color:#999; font-size:12px; text-align:center; padding:20px;\">\n    Tekan \"Generate Recommendation\" untuk melihat rekomendasi\n  </div>\n\n  <div ng-repeat=\"crop in msg.payload.tanaman track by $index\"\n       class=\"crop-card\"\n       ng-class=\"{\n         'sangat-cocok':  crop.status === 'Sangat Cocok',\n         'cocok':         crop.status === 'Cocok',\n         'kurang-cocok':  crop.status === 'Kurang Cocok',\n         'tidak-cocok':   crop.status === 'Tidak Cocok'\n       }\">\n    <div class=\"crop-header\">\n      <span class=\"crop-rank\">#{{ $index + 1 }}</span>\n      <span class=\"crop-name\">{{ crop.nama }}</span>\n      <span class=\"crop-score\">{{ crop.skor }}%</span>\n      &nbsp;\n      <span class=\"crop-status\"\n            ng-class=\"{\n              'status-sangat-cocok': crop.status === 'Sangat Cocok',\n              'status-cocok':        crop.status === 'Cocok',\n              'status-kurang-cocok': crop.status === 'Kurang Cocok',\n              'status-tidak-cocok':  crop.status === 'Tidak Cocok'\n            }\">{{ crop.status }}</span>\n    </div>\n    <div class=\"crop-params\" ng-if=\"crop.details\">\n      <span ng-repeat=\"(param, info) in crop.details\"\n            class=\"param-chip\"\n            ng-class=\"{\n              'good': info.percentage >= 80,\n              'ok':   info.percentage >= 50 && info.percentage < 80,\n              'bad':  info.percentage < 50\n            }\">\n        {{ param }}: {{ info.percentage | number:0 }}%\n      </span>\n    </div>\n  </div>\n</div>\n"
+  },
+  {
+    "id": "98b91cfccfca7c70",
+    "type": "tcp out",
+    "z": "11085f20bdad7e65",
+    "g": "69b22b69a1e93a4c",
+    "name": "",
+    "host": "127.0.0.1",
+    "port": "5021",
+    "beserver": "client",
+    "base64": false,
+    "end": false,
+    "tls": "",
+    "x": 670,
+    "y": 80,
+    "wires": []
+  },
+  {
+    "id": "2d81ebc87833e4b8",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "g": "69b22b69a1e93a4c",
+    "name": "Filter Rekomendasi",
+    "func": "// Struktur TCP dari Python:\n// { slave_id, timestamp, data: { tipe: 'rekomendasi_urutan', data: [...] } }\nvar inner = msg.payload && msg.payload.data;\nif (inner && inner.tipe === 'rekomendasi_urutan' && Array.isArray(inner.data)) {\n    msg.payload = inner.data;\n    return msg;\n}\nreturn null;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1250,
+    "y": 1160,
+    "wires": [
+      [
+        "f6359da806e01927"
+      ]
+    ]
+  },
+  {
+    "id": "c65117a2a5c8672a",
+    "type": "ui_switch",
+    "z": "11085f20bdad7e65",
+    "name": "Toggle Slave 1",
+    "label": "Slave 1",
+    "tooltip": "",
+    "group": "monitoring_control_group",
+    "order": 10,
+    "width": 2,
+    "height": 1,
+    "passthru": true,
+    "decouple": "false",
+    "topic": "slave_1",
+    "topicType": "str",
+    "style": "",
+    "onvalue": "true",
+    "onvalueType": "bool",
+    "onicon": "",
+    "oncolor": "",
+    "offvalue": "false",
+    "offvalueType": "bool",
+    "officon": "",
+    "offcolor": "",
+    "animate": false,
+    "className": "",
+    "x": 100,
+    "y": 300,
+    "wires": [
+      [
+        "c209417dcecaf191"
+      ]
+    ]
+  },
+  {
+    "id": "0f2b83fe1b0b598c",
+    "type": "ui_switch",
+    "z": "11085f20bdad7e65",
+    "name": "Toggle Slave 2",
+    "label": "Slave 2",
+    "tooltip": "",
+    "group": "monitoring_control_group",
+    "order": 11,
+    "width": 2,
+    "height": 1,
+    "passthru": true,
+    "decouple": "false",
+    "topic": "slave_2",
+    "topicType": "str",
+    "style": "",
+    "onvalue": "true",
+    "onvalueType": "bool",
+    "onicon": "",
+    "oncolor": "",
+    "offvalue": "false",
+    "offvalueType": "bool",
+    "officon": "",
+    "offcolor": "",
+    "animate": false,
+    "className": "",
+    "x": 100,
+    "y": 340,
+    "wires": [
+      [
+        "c209417dcecaf191"
+      ]
+    ]
+  },
+  {
+    "id": "0ace391a66fbaa6c",
+    "type": "ui_switch",
+    "z": "11085f20bdad7e65",
+    "name": "Toggle Slave 3",
+    "label": "Slave 3",
+    "tooltip": "",
+    "group": "monitoring_control_group",
+    "order": 12,
+    "width": 2,
+    "height": 1,
+    "passthru": true,
+    "decouple": "false",
+    "topic": "slave_3",
+    "topicType": "str",
+    "style": "",
+    "onvalue": "true",
+    "onvalueType": "bool",
+    "onicon": "",
+    "oncolor": "",
+    "offvalue": "false",
+    "offvalueType": "bool",
+    "officon": "",
+    "offcolor": "",
+    "animate": false,
+    "className": "",
+    "x": 100,
+    "y": 380,
+    "wires": [
+      [
+        "c209417dcecaf191"
+      ]
+    ]
+  },
+  {
+    "id": "c209417dcecaf191",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "name": "Slave Manager",
+    "func": "var s1 = context.get('s1');\nvar s2 = context.get('s2');\nvar s3 = context.get('s3');\n\nif (s1 === undefined) s1 = true;\nif (s2 === undefined) s2 = true;\nif (s3 === undefined) s3 = true;\n\nif (msg.topic === 'slave_1') s1 = msg.payload;\nif (msg.topic === 'slave_2') s2 = msg.payload;\nif (msg.topic === 'slave_3') s3 = msg.payload;\n\ncontext.set('s1', s1);\ncontext.set('s2', s2);\ncontext.set('s3', s3);\n\nvar hide = [];\nvar show = [];\n\nif(s1) show.push(\"Monitoring Tanah_Slave 1\"); else hide.push(\"Monitoring Tanah_Slave 1\");\nif(s2) show.push(\"Monitoring Tanah_Slave 2\"); else hide.push(\"Monitoring Tanah_Slave 2\");\nif(s3) show.push(\"Monitoring Tanah_Slave 3\"); else hide.push(\"Monitoring Tanah_Slave 3\");\n\nvar msg1 = { payload: { group: { hide: hide, show: show } } };\n\nvar active_slaves = [];\nif(s1) active_slaves.push(1);\nif(s2) active_slaves.push(2);\nif(s3) active_slaves.push(3);\n\nvar msg2 = { payload: JSON.stringify({ cmd: \"SET_SLAVES\", slaves: active_slaves }) };\n\nreturn [msg1, msg2];",
+    "outputs": 2,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 300,
+    "y": 340,
+    "wires": [
+      [
+        "3c0f249ecfd448a1"
+      ],
+      [
+        "98b91cfccfca7c70"
+      ]
+    ]
+  },
+  {
+    "id": "3c0f249ecfd448a1",
+    "type": "ui_ui_control",
+    "z": "11085f20bdad7e65",
+    "name": "",
+    "events": "all",
+    "x": 500,
+    "y": 300,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "59881499f31621c2",
+    "type": "ui_group",
+    "name": "Slave 1",
+    "tab": "cfd28f8c39dec4f1",
+    "order": 2,
+    "disp": true,
+    "width": 6,
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "678af00f9f705c2d",
+    "type": "ui_group",
+    "name": "Slave 2",
+    "tab": "cfd28f8c39dec4f1",
+    "order": 3,
+    "disp": true,
+    "width": 6,
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "aa079b3c2162d745",
+    "type": "ui_group",
+    "name": "Slave 3",
+    "tab": "cfd28f8c39dec4f1",
+    "order": 4,
+    "disp": true,
+    "width": 6,
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "9e01eb60cace409c",
+    "type": "MySQLdatabase",
+    "name": "Monitoring Tanah",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "db": "tanah_db",
+    "tz": "",
+    "charset": "UTF8"
+  },
+  {
+    "id": "monitoring_control_group",
+    "type": "ui_group",
+    "name": "Monitoring Control",
+    "tab": "cfd28f8c39dec4f1",
+    "order": 1,
+    "disp": true,
+    "width": 6,
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "ae4c554b5c7307b1",
+    "type": "ui_group",
+    "name": "Rekomendasi Tanaman",
+    "tab": "cfd28f8c39dec4f1",
+    "order": 5,
+    "disp": true,
+    "width": 12,
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "cfd28f8c39dec4f1",
+    "type": "ui_tab",
+    "name": "Monitoring Tanah",
+    "icon": "dashboard",
+    "disabled": false,
+    "hidden": false
+  },
+  {
+    "id": "ac842025c30ab809",
+    "type": "global-config",
+    "env": [],
+    "modules": {
+      "node-red-dashboard": "3.6.6",
+      "node-red-node-mysql": "3.0.0"
+    }
+  },
+  {
+    "id": "init_slave_1_inject",
+    "type": "inject",
+    "z": "11085f20bdad7e65",
+    "name": "Init Slave 1 ON",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": true,
+    "onceDelay": 0.1,
+    "topic": "slave_1",
+    "payload": "true",
+    "payloadType": "bool",
+    "x": 100,
+    "y": 200,
+    "wires": [
+      [
+        "c209417dcecaf191"
+      ]
+    ]
+  },
+  {
+    "id": "init_slave_2_inject",
+    "type": "inject",
+    "z": "11085f20bdad7e65",
+    "name": "Init Slave 2 ON",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": true,
+    "onceDelay": 0.2,
+    "topic": "slave_2",
+    "payload": "true",
+    "payloadType": "bool",
+    "x": 100,
+    "y": 240,
+    "wires": [
+      [
+        "c209417dcecaf191"
+      ]
+    ]
+  },
+  {
+    "id": "init_slave_3_inject",
+    "type": "inject",
+    "z": "11085f20bdad7e65",
+    "name": "Init Slave 3 ON",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": true,
+    "onceDelay": 0.3,
+    "topic": "slave_3",
+    "payload": "true",
+    "payloadType": "bool",
+    "x": 100,
+    "y": 260,
+    "wires": [
+      [
+        "c209417dcecaf191"
+      ]
+    ]
+  },
+  {
+    "id": "rekom_mysql_vps_001",
+    "type": "mysql",
+    "z": "11085f20bdad7e65",
+    "mydbConfig": "9e01eb60cace409c",
+    "name": "Query Rekomendasi JSON",
+    "sql": "SELECT data_json, timestamp FROM rekomendasi ORDER BY timestamp DESC LIMIT 1;",
+    "wires": [
+      [
+        "rekom_transform_vps_001"
+      ]
+    ]
+  },
+  {
+    "id": "rekom_transform_vps_001",
+    "type": "function",
+    "z": "11085f20bdad7e65",
+    "name": "Transform Rekomendasi JSON",
+    "func": "\n// Query MySQL rekomendasi - ambil data_json\nvar rows = msg.payload;\nif (!rows || rows.length === 0) {\n    msg.payload = { tanaman: [], timestamp: null };\n    return msg;\n}\n\nvar row = rows[0];\nvar tanaman = [];\n\nif (row.data_json) {\n    try {\n        tanaman = JSON.parse(row.data_json);\n    } catch(e) {\n        node.warn(\"Gagal parse data_json: \" + e);\n    }\n}\n\nmsg.payload = {\n    tanaman: tanaman,\n    timestamp: row.timestamp\n};\nreturn msg;\n",
+    "outputs": 1,
+    "wires": [
+      [
+        "f6359da806e01927"
+      ]
+    ]
+  }
+]
